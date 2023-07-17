@@ -60,15 +60,17 @@ border: 0;
 }
 .sponsors{
   display: flex;
-  margin-left: 120px;
-  margin-right: 120px;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 50px;
+  padding:50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .sponsors img{
-  border-radius: 10px;
+ border-radius: 10px;
   margin-top: 50px;
-  width: 40%;
+  width: 80%;
+  
 }
 
 
@@ -90,7 +92,8 @@ border: 0;
     flex-direction: column-reverse;
   }
   .sponsors{
-    
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
 }
