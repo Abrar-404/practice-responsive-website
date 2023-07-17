@@ -152,6 +152,29 @@ padding-bottom: 20px;
   align-items: center;
   gap: 20px;
 }
+.footer{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 100px;
+  background-color: #0A0826;
+  height: 40vh;
+  color: white;
+font-size: 24px;
+font-family: Poppins;
+}
+.footer p{
+  color: #D9DBE1;
+font-size: 14px;
+font-family: Manrope;
+}
+.social-icons{
+  gap: 20px;
+  padding-top: 20px;
+
+}
 
 
 
